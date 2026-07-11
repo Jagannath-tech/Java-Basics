@@ -1,0 +1,14 @@
+package string;
+import java.util.Scanner;
+public class count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String a=sc.nextLine();
+		String b[]=a.split(" ");
+		
+		System.out.println(b.length);
+	}
+
+}
